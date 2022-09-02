@@ -5,10 +5,21 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/style.css">
     <title>Movies</title>
+    <script type="text/javascript" src="js/score.js"></script>
+    <script>
+
+
+    </script>
 </head>
 <body>
 
 <div class="navbar">
+    <div class="registreradig">
+        <a href="login.html">
+            <button class="btn" type="submit">Registrera dig</button>
+        </a>
+    </div>
+
     <div class="dropdown">
         <button class="dropbtn">ACTION
             <i class="fa fa-caret-down"></i>
@@ -16,7 +27,7 @@
         <div class="dropdown-content">
             <a href="subcategory-action.html">Undergenre</a>
             <a href="alfabetic.html">A-Ö</a>
-            <a href="scoreIMDB.html">Betyg Imdb</a>
+            <a href="scoreIMDB.html">Betyg</a>
 
         </div>
     </div>
@@ -27,7 +38,7 @@
         <div class="dropdown-content">
             <a href="subcategory-action.html">Undergenre</a>
             <a href="alfabetic.html">A-Ö</a>
-            <a href="scoreIMDB.html">Betyg Imdb</a>
+            <a href="scoreIMDB.html">Betyg</a>
 
         </div>
     </div>
@@ -38,7 +49,7 @@
         <div class="dropdown-content">
             <a href="subcategory-action.html">Undergenre</a>
             <a href="alfabetic.html">A-Ö</a>
-            <a href="scoreIMDB.html">Betyg Imdb</a>
+            <a href="scoreIMDB.html">Betyg</a>
         </div>
     </div>
     <div class="dropdown">
@@ -48,10 +59,11 @@
         <div class="dropdown-content">
             <a href="subcategory-action.html">Undergenre</a>
             <a href="alfabetic.html">A-Ö</a>
-            <a href="scoreIMDB.html">Betyg Imdb</a>
+            <a href="scoreIMDB.html">Betyg</a>
 
         </div>
     </div>
+
 </div>
 
 <div class="picture">
@@ -60,16 +72,13 @@
     <img src="img/video-production-gff3ec390f_640.jpg" alt="video">
 </div>
 
-<p>Senaste besökta filmerna</p>
-<div class="d-flex justify-content-center">
-    <div class="spinner-border"
-         role="status" id="loading">
-        <span class="sr-only">Loading...</span>
-    </div>
-</div>
-<table id="employees"></table>
+<p>Top 5 bästa filmerna</p>
+<table id="tb1" border="1">
 
-<script src="js/imdp.js"></script>
+</table>
+
+</div>
+
 
 </body>
 </html>

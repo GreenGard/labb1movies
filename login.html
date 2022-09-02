@@ -3,11 +3,17 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="../css/style.css">
-    <title>Action</title>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Login</title>
 </head>
 <body>
 <div class="navbar">
+    <div class="home">
+        <a href="index.html">
+            <button class="btn" type="submit">HOME</button>
+        </a>
+    </div>
+
     <div class="dropdown">
         <button class="dropbtn">ACTION
             <i class="fa fa-caret-down"></i>
@@ -15,7 +21,7 @@
         <div class="dropdown-content">
             <a href="subcategory-action.html">Undergenre</a>
             <a href="alfabetic.html">A-Ö</a>
-            <a href="scoreIMDB.html">Betyg Imdb</a>
+            <a href="scoreIMDB.html">Betyg</a>
 
         </div>
     </div>
@@ -26,7 +32,7 @@
         <div class="dropdown-content">
             <a href="subcategory-action.html">Undergenre</a>
             <a href="alfabetic.html">A-Ö</a>
-            <a href="scoreIMDB.html">Betyg Imdb</a>
+            <a href="scoreIMDB.html">Betyg</a>
 
         </div>
     </div>
@@ -37,7 +43,7 @@
         <div class="dropdown-content">
             <a href="subcategory-action.html">Undergenre</a>
             <a href="alfabetic.html">A-Ö</a>
-            <a href="scoreIMDB.html">Betyg Imdb</a>
+            <a href="scoreIMDB.html">Betyg</a>
         </div>
     </div>
     <div class="dropdown">
@@ -47,16 +53,37 @@
         <div class="dropdown-content">
             <a href="subcategory-action.html">Undergenre</a>
             <a href="alfabetic.html">A-Ö</a>
-            <a href="scoreIMDB.html">Betyg Imdb</a>
+            <a href="scoreIMDB.html">Betyg</a>
 
         </div>
     </div>
 </div>
 
-<div class="inner_article">
-    <a scr=""
+<div class="login">
+    <form name='form-login'>
+
+        <h1>REGISTER</h1>
+
+        <label for="name">Email</label>
+        <input type="email" id="name" placeholder="Username" required>
+
+        <label for="pw">Password</label>
+        <input type="password"
+               id="pw"
+               placeholder="Password" required>
+
+        <ul class="helper-text">
+            <li class="length">Must be at least 8 characters long.</li>
+            <li class="lowercase">Must contain a lowercase letter.</li>
+            <li class="uppercase">Must contain an uppercase letter.</li>
+            <li class="special">Must contain a number or special character.</li>
+        </ul>
+        <input id="rgstr_btn" type="submit" value="Register" onclick="store(name)">
+        <a href="index.html"></a>
+    </form>
+
+    <script src="/js/index.js"></script>
 </div>
 
-<script src="/js/wishlist.js"></script>
 </body>
 </html>
