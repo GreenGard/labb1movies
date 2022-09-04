@@ -12,10 +12,6 @@ body {
     margin-top: -50px;
 }
 
-
-
-
-
 ul {
     list-style-type: none;
     margin: 0;
@@ -166,7 +162,7 @@ li.dropdown {
     background-position: center center;
 }
 
-.card p { /* onödigt?*/
+.card p {
     flex: 1;
     line-height: 1.4;
 }
@@ -205,7 +201,7 @@ li.dropdown {
     text-decoration: none;
 }
 
-/* Change color on hover */
+
 .topnav a:hover {
     background-color: #ddd;
     color: black;
@@ -303,7 +299,7 @@ li.dropdown {
 
 
 
-@media screen and (min-width: 916px) and (max-width: 859px) {
+@media screen and (min-width: 859px) and (max-width: 916px) {
     .bandtwo {
         grid-template-columns: 1fr;
     }
@@ -324,7 +320,7 @@ li.dropdown {
 }
 
 
-@media only screen and (max-width: 915px) {
+@media only screen and (max-width: 858px) {
     .bandtwo {
         grid-template-columns: 1fr;
     }
