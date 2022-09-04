@@ -1,24 +1,26 @@
 {
   "topfive": [
     {
-      "titel": "Samaritan",
-      "score": "9.8"
-    },
-    {
       "titel": "Top Gun:Maverick",
       "score": "8.5"
     },
+
     {
       "titel": "Prey",
-      "score": "8.4"
-    },
-    {
-      "titel": "Terminator:Darg fait",
-      "score": "7.3"
+      "score": "7.2"
     },
     {
       "titel": "Alien Covenant",
-      "score": "7"
+      "score": "6,4"
+    },
+    {
+      "titel": "Terminator:Dark fait",
+      "score": "6.2"
+    },
+
+    {
+      "titel": "Samaritan",
+      "score": "5.8"
     }
   ]
 }

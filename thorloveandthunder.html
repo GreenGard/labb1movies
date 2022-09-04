@@ -9,9 +9,8 @@
 <body>
 
 <div class="navbar">
-    <div class="home">
-        <a href="index.html">
-            <button class="btn" type="submit">HOME</button>
+    <div id="home" class="home">
+        <a href="index.html">HOME
         </a>
     </div>
 
@@ -92,15 +91,40 @@
                 Alexander, Sam Neill, Russell Crowe, Melissa Mccarthy, Christian Bale, Matt Damon, Luke Hemsworth
 
         </div>
-        <H3>Lämna ditt betyg för den här filmen!</H3>
-        <FORM NAME="myform" ACTION="" METHOD="GET">Enter something in the box: <BR>
-            <INPUT TYPE="text" NAME="inputbox" VALUE=""><P>
-                <INPUT TYPE="button" NAME="button" Value="Click" onClick="testResults(this.form)">
-        </FORM>
+        <H3></H3>
+
+        <section id="info-age-limit">
+            <h2>Lämna ditt betyg för den här filmen!</h2>
+            <form id="age-limit-form">
+                <label for="age-limit">Välj ditt betyg:</label>
+                <select name="age-limit" id="age-limit">
+                    <option value="10" selected="selected">10</option>
+                    <option value="9" selected="selected">9</option>
+                    <option value="8">8</option>
+                    <option value="7">7</option>
+                    <option value="6">6</option>
+                    <option value="5">5</option>
+                    <option value="4">4</option>
+                    <option value="3">3</option>
+                    <option value="2">2</option>
+                    <option value="1">1</option>
+                    <option value="0">0</option>
+                </select>
+                <br /><br />
+                <div id="save-button-div">
+                    <input type="submit" value="Spara" id="save-button" />
+                </div>
+            </form>
+        </section>
+
+        <button type="button" style="width: fit-content" id="myBtn">Klicka för dina poäng</button>
+        <script src="js/ratings.js"></script>
+
     </div>
+
+
 </div>
 
-<script src="js/wishlist.js"></script>
 
 </body>
 </html>

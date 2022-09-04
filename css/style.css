@@ -263,7 +263,7 @@ li.dropdown {
 
 .navbar a {
     float: left;
-    font-size: 16px;
+    font-size: 24px;
     display: block;
     color: white;
     text-align: center;
@@ -322,7 +322,7 @@ li.dropdown {
 
 p {
     font-family: sans-serif;
-    color: F2F7E6;
+    color: #F2F7E6;
     line-height: 1.5em;
 }
 
@@ -331,17 +331,6 @@ after {
 }
 
 
-.btn {
-    font-size: 24px;
-    border: none;
-    outline: none;
-    color: white;
-    padding: 0px 16px;
-    background-color: #DC143C;
-    font-family: inherit;
-    margin: 0;
-    border-radius: 12px;
-}
 
 
 
