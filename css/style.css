@@ -66,11 +66,14 @@ h1 {
 
 h3 {
     text-align: center;
-    ;
 }
 
 li {
     float: left;
+}
+#scorejson{
+    text-align: inherit;
+    display: inline-block
 }
 
 li a, .dropbtn {
@@ -320,10 +323,11 @@ li.dropdown {
 
 
 
-p {
-    font-family: sans-serif;
+.p {
+
     color: #F2F7E6;
     line-height: 1.5em;
+    font-size: 24px;
 }
 
 after {
@@ -346,8 +350,24 @@ after {
 
 }
 
+@media screen and (min-width: 917px) and (max-width: 1599px) {
+    .bandtwo {
+        grid-template-columns: 1fr;
+    }
 
-@media screen and (min-width: 916px) and (max-width: 1599px) {
+    .band {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .picture {
+        flex-flow: row wrap;
+    }
+
+
+}
+
+
+
+@media screen and (min-width: 916px) and (max-width: 859px) {
     .bandtwo {
         grid-template-columns: 1fr;
     }
