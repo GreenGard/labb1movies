@@ -4,8 +4,9 @@ function store(event) {
     event.preventDefault();
     let limit = document.querySelector("#rating").value;
     console.log(limit);
+    if(limit !=null){
     localStorage.setItem("rating", limit); // Store
-}
+}}
 
 elForm.addEventListener("submit", store);
 
