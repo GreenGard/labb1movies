@@ -7,39 +7,12 @@ body {
     color: #F2F7E6;
 }
 
-.box {
-    width: 380px;
-    height: 500px;
-    background-color: rgba(0, 0, 0, 0.7);
-    padding: 20px;
-    margin: 8% auto 0;
-    text-align: center;
-    position: relative;
-    box-sizing: border-box;
-    flex-direction: column;
-}
-
 .box img {
     width: 100px;
     margin-top: -50px;
 }
 
-.header {
-    width: 300px;
-    height: 50px;
-    text-transform: uppercase;
-    display: inline-flex;
-    padding-top: 20px;
-    padding-bottom: 0;
-    justify-content: space-between;
-}
 
-
-
-.content {
-    display: inline-flex;
-    overflow: hidden;
-}
 
 
 
@@ -97,7 +70,7 @@ li.dropdown {
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
 
@@ -122,12 +95,6 @@ li.dropdown {
     flex-direction: row;
 }
 
-.lotsofpicture {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 50px;
-}
 
 .container {
     padding-right: 15px;
@@ -141,10 +108,6 @@ li.dropdown {
     position: relative;
     overflow: hidden;
     width: 100%;
-}
-
-.textmovie {
-    width: 1120px;
 }
 
 
@@ -185,10 +148,6 @@ li.dropdown {
 .card:hover {
     top: -2px;
     box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
-}
-
-#Gallery {
-    margin-top: 6rem;
 }
 
 .card article {
@@ -237,13 +196,6 @@ li.dropdown {
     height: 100%;
 }
 
-
-.topnav {
-    overflow: hidden;
-    background-color: #333;
-}
-
-/* Style the topnav links */
 .topnav a {
     float: left;
     display: block;
@@ -299,7 +251,7 @@ li.dropdown {
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
 
@@ -322,13 +274,6 @@ li.dropdown {
 
 
 
-
-.p {
-
-    color: #F2F7E6;
-    line-height: 1.5em;
-    font-size: 24px;
-}
 
 after {
     clear: both;

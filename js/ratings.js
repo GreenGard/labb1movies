@@ -1,20 +1,19 @@
-const elForm = document.querySelector("#age-limit-form");
+const elForm = document.querySelector("#rating-form");
 
 function store(event) {
     event.preventDefault();
-    let limit = document.querySelector("#age-limit").value;
+    let limit = document.querySelector("#rating").value;
     console.log(limit);
-    localStorage.setItem("age-limit", limit); // Store
+    localStorage.setItem("rating", limit); // Store
 }
 
 elForm.addEventListener("submit", store);
 
 
 function displayMessage(){
-    let limit=localStorage.getItem("age-limit");
-    document.getElementById("age-limit-form").innerHTML = "Ditt betyg " + limit;
+    let limit=localStorage.getItem("rating");
+    document.getElementById("rating-form").innerHTML = "Ditt betyg " + limit;
 }
 
 var btn = document.getElementById("myBtn");
-// add event listener for the button, for action "click"
 btn.addEventListener("click", displayMessage);
