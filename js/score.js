@@ -1,7 +1,7 @@
 fetch ('./json/ratings.json')
     .then(response => response.json())
     .then(data => {
-        for (var i = 0; i<data.topfive.length; i++){
+        for (let i = 0; i<data.topfive.length; i++){
             let vtitel = data.topfive[i].titel;
             let vscore = data.topfive[i].score;
             document.querySelector("#tb1").innerHTML += `

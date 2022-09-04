@@ -15,5 +15,5 @@ function displayMessage(){
     document.getElementById("rating-form").innerHTML = "Ditt betyg " + limit;
 }
 
-var btn = document.getElementById("myBtn");
+let btn = document.getElementById("myBtn");
 btn.addEventListener("click", displayMessage);
