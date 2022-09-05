@@ -4,14 +4,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/style.css">
-    <title>Movies</title>
-    <script src="js/score.js"></script>
+    <title>Login</title>
 </head>
 <body>
 
 <div class="navbar">
     <div id="home" class="home">
-        <a href="login.html">Logga in
+        <a href="index.html">HOME
         </a>
     </div>
 
@@ -25,9 +24,7 @@
             <a href="https://httpstatusdogs.com/img/418.jpg">Betyg</a>
 
         </div>
-
-
-        </div>
+    </div>
     <div class="dropdown">
         <button class="dropbtn">KOMEDI
             <i class="fa fa-caret-down"></i>
@@ -60,16 +57,32 @@
     </div>
 </div>
 
+<div class="support-grid"></div>
+<div class="bandthree">
+<div class="containertwo">
+    <form action="/index.html">
+        <label for="usrname">Username</label>
+        <input type="text" id="usrname" name="usrname" required>
 
-<div class="picture">
-    <img src="img/popcorn-g8189b47a1_640.jpg" alt="popcorn">
-    <img src="img/ticket-g99fb3ed59_640.jpg" alt="biljetter">
-    <img src="img/video-production-gff3ec390f_640.jpg" alt="video">
+        <label for="psw">Password</label>
+        <input type="password" id="psw" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+               title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"
+               required>
+
+        <input type="submit" value="Submit">
+    </form>
 </div>
-<div id="scorejson">
-    <h3>Top 5 bästa filmerna</h3>
-    <table id="tb1">
-    </table>
+
+    <script src="js/login.js"></script>
+</div>
+<div id="message">
+    <h2>Lösenordet måste innehålla:</h2>
+    <p>Liten bokstav </p>
+    <p>Stor bokstav </p>
+    <p>En siffra</p>
+    <p>Minst 8 tecken </p>
+    <p>Liten bokstav </p>
+
 </div>
 
 </body>
