@@ -40,7 +40,8 @@ h3 {
 li {
     float: left;
 }
-#scorejson{
+
+#scorejson {
     text-align: inherit;
     display: inline-block
 }
@@ -105,6 +106,7 @@ li.dropdown {
     overflow: hidden;
     width: 100%;
 }
+
 .containertwo {
     padding-right: 15px;
     padding-left: 15px;
@@ -293,16 +295,17 @@ li.dropdown {
 }
 
 
-form{
+form {
     display: contents;
     width: fit-content;
 }
 
-#message{
-    display:flow-root;
+#message {
+    display: flow-root;
     margin: 36px;
     text-align: center;
 }
+
 @media screen and (min-width: 1600px) {
     .bandtwo {
         grid-template-columns: 1fr;
@@ -323,13 +326,13 @@ form{
     .band {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
+
     .picture {
         flex-flow: row wrap;
     }
 
 
 }
-
 
 
 @media screen and (min-width: 859px) and (max-width: 916px) {
@@ -344,11 +347,21 @@ form{
     .picture {
         flex-flow: row wrap;
     }
+
     img {
         display: block;
         margin-left: auto;
         margin-right: auto;
         width: 80%;
+    }
+
+    .navbar a {
+        float: none;
+    }
+
+    #home {
+        display: grid;
+        float: left;
     }
 }
 
@@ -361,6 +374,7 @@ form{
     .band {
         grid-template-columns: 1fr;
     }
+
     .picture {
         flex-flow: row wrap;
     }
@@ -375,6 +389,7 @@ form{
         width: 100%;
         text-align: center;
     }
+
     img {
         display: block;
         margin-left: auto;
@@ -382,6 +397,10 @@ form{
         width: 80%;
     }
 
+    #home {
+        display: grid;
+        float: none;
+    }
 }
 
 
