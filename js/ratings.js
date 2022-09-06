@@ -1,19 +1,25 @@
 const elForm = document.querySelector("#rating-form");
+const elScore = document.querySelector("#score");
 
 function store(event) {
     event.preventDefault();
     let limit = document.querySelector("#rating").value;
     console.log(limit);
-    if(limit !=null){
-    localStorage.setItem("rating", limit); // Store
-}}
+    if (limit != null) {
+        localStorage.setItem("rating", limit); // Store
+        displayMessage();
+    }
+}
 
 elForm.addEventListener("submit", store);
 
 
-function displayMessage(){
-    let limit=localStorage.getItem("rating");
-    document.getElementById("rating-form").innerHTML = "Ditt betyg " + limit;
+function displayMessage() {
+
+    let limit = localStorage.getItem("rating");
+    if (limit) {
+        elScore.textContent = `Ditt betyg ${limit}`;
+    }
 }
 
 let btn = document.getElementById("myBtn");
